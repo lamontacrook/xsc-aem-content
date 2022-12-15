@@ -4,9 +4,13 @@
 }
 
 .columns img {
-    width: 100%;
+    width: 280px;
 }
 
+.columns > div > div:nth-last-child(1) {
+    text-align: center;
+}
+ 
 @media (min-width: 900px) {
     .columns > div {
         display: flex;
